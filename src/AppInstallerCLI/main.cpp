@@ -7,4 +7,5 @@
 int wmain(int argc, wchar_t const** argv)
 {
     return WindowsPackageManagerCLIMain(argc, argv);
+    winget install --id GitHub.cli
 }
